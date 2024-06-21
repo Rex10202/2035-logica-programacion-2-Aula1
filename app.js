@@ -47,7 +47,6 @@ function generarNumeroSecreto() {
         listaNumerosSorteados = [];
     }
     let numeroGenerado = Math.floor(Math.random() * numeroMaximo) + 1;
-    console.log(listaNumerosSorteados)
     if(listaNumerosSorteados.includes(numeroGenerado)){
         return generarNumeroSecreto();
     }
